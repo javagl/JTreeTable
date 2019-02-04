@@ -55,7 +55,7 @@ public class JTreeTableDragAndDropExample
         JTreeTable treeTable = new JTreeTable(treeTableModel);
         f.getContentPane().add(new JScrollPane(treeTable), BorderLayout.CENTER);
         
-        intallDragHandling(treeTable);
+        installDragHandling(treeTable);
         
         JLabel label = new JLabel();
         label.setBorder(BorderFactory.createTitledBorder("Drop here"));
@@ -69,7 +69,7 @@ public class JTreeTableDragAndDropExample
         f.setVisible(true);
     }
     
-    private static void intallDragHandling(JTable table)
+    private static void installDragHandling(JTable table)
     {
         table.setCellSelectionEnabled(true);
         DragGestureListener dragGestureListener = new DragGestureListener()
