@@ -14,10 +14,17 @@ The library is available in Maven Central:
     <dependency>
       <groupId>de.javagl</groupId>
       <artifactId>treetable</artifactId>
-      <version>0.0.1</version>
+      <version>0.0.2</version>
     </dependency>
 
 
+### Change log
+
+0.0.2 (2022-12-01)
+  - Bugfix for tree expansion handling on Java 11 and 17
+
+0.0.1 (2016-01-21)
+  - Initial release
 
 
 
