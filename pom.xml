@@ -10,7 +10,7 @@
 
     <groupId>de.javagl</groupId>
     <artifactId>treetable</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <name>treetable</name>
     <description>A JTreeTable</description>
